@@ -1,0 +1,42 @@
+body{
+
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.top-banner{
+    background-image:url(images/shapes/Frame\ 59.jpg)
+    
+}
+
+#skip{
+    color: orange;
+    font: bolder;
+    font-size: 120%;
+}
+
+}
+
+
+.div{
+    width: 50%;
+    padding: 5%;
+}
+
+.para01{
+ width: 50%;
+}
+
+.hire-me{
+    color:white;
+    font-size: 20px;
+    padding: 5px 30px;
+    background-color: tomato;
+    text-decoration: none;
+    border-radius: 20px;
+
+}
+
+.image01{
+ 
+
+}
+
