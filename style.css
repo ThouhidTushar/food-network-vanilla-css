@@ -17,7 +17,7 @@ h3{
 p{
 
     color: black;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 
@@ -35,7 +35,6 @@ width: 100%;
 padding-left: 30px;
 
 }
-
 
 #skip{
     color: orange;
@@ -55,7 +54,7 @@ padding-left: 30px;
     color: white;
     font-weight: 700;
     border-radius: 100px;
-    background-color: orangered;
+    background-image: orangered, orange;
     
   }
   .middle{
@@ -75,19 +74,24 @@ text-align: center;
   }
 
 .card{
-    width: 300px;
+    width: auto;
     margin: 10px;
-    box-sizing: border-box;
+    box-sizing: 200px 200px;
     box-shadow: 1px 2px 4px black;
-padding: 5px;
-display: flex;
-text-align: justify;
+    padding: 30px;
+    display: flex;
+    text-align: justify;
+    border-radius: 40px;
 
 }
 
 .img-style{
 
     width: 100%;
+    border-radius: 20px;
+    justify-content: space-between;
+    image-orientation: initial
+
 }
 
 /* .box3 img{
@@ -96,10 +100,24 @@ text-align: justify;
     border-radius: 30px;
     float:left; 
 
-}
+} */
 
 .box3 p{
 
  font-size: 20px;
 
-} */
+} 
+
+
+#three-card{
+
+    display: flex;
+    justify-content: space-between;
+    flex-flow: nowrap;
+    padding: 6%;
+    border-radius: 20%;
+}
+
+.grand{
+    font-size: 40px;
+}
