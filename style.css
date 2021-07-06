@@ -3,6 +3,22 @@ section{
     margin-bottom: 50px;
 }
 
+.topbar{
+    background-image: linear-gradient(rgb(255, 166, 0), rgba(255, 68, 0, 0.774));
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.navbar a {
+  
+  color: white;
+  padding: 7px 14px;
+  text-decoration: none;
+  font-size: 30px;
+  text-align: right;
+}
+
 h1{
     font-size: 70px;
 }
@@ -14,6 +30,7 @@ font-size: 45px;
 h3{
     font-size: 30px;
 }
+
 p{
 
     color: black;
@@ -25,7 +42,7 @@ body{
 
 }
 
-.half-width{
+.half-width {
 width: 50%;
 margin:5%;
 justify-content: space-between;
@@ -100,7 +117,6 @@ text-align: center;
 
 } 
 
-
 #three-card{
 
     display: flex;
@@ -112,7 +128,7 @@ text-align: center;
 
 .card-text{
     font-size: 35px;
-font-weight: bold;
+    font-weight: bold;
 }
 
 
@@ -130,4 +146,9 @@ font-weight: bold;
 .footer p{
 
     font-size: 20px;
+}
+
+.footer span
+{
+color: white;
 }
